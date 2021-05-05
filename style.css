@@ -1,9 +1,9 @@
-/* Core Styles */
+
 
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #333;
+    background: rgb(63, 63, 63);
     color: #fff;
     font-size: 1.1em;
     line-height: 1.5;
@@ -43,7 +43,7 @@ body {
     color: #333;
   }
   
-  /* Header Showcase */
+ 
   
   #showcase {
     min-height: 450px;
@@ -53,8 +53,8 @@ body {
   
   #showcase .bg-image {
     position: absolute;
-    background: #333
-      url(/resumewebsite/Images/head.jpg);
+    background:
+      url(../Images/head.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,15 +82,15 @@ body {
     padding: 0 1.5em;
   }
   
-  /* Section A */
+
   
   #section-a {
-    background: #eaeaea;
+    background: white;
     color: #333;
     padding-bottom: 2em;
   }
   
-  /* Section B */
+
   
   #section-b {
     padding: 2em 1em 1em;
@@ -104,7 +104,7 @@ body {
   
   #section-b li {
     margin-bottom: 1em;
-    background: #fff;
+    background: white;
     color: #333;
   }
 
@@ -119,30 +119,27 @@ body {
     padding: 1.5em;
   }
   
-  /* Section C */
+
   
   #section-c {
-    background: #fff;
+    background: white;
     color: #333;
     padding: 2em;
   }
   
-  /* Section D / Boxes */
+
   
   #section-d .box {
     padding: 1em;
     color: #fff;
   }
   
-  #section-d .box:first-child {
-    background: #2690d4;
-  }
   
-  /* Footer */
+
   
   #main-footer {
     padding: 2em;
-    background: #000;
+    background:rgb(63, 63, 63) ;
     color: #fff;
     text-align: left;
   }
@@ -174,17 +171,17 @@ body {
 
   #last {
     padding: 10px;
-    background: rgb(253, 87, 27);
+    background: tomato;
     color: #fff;
     margin: 0;
-    font-family: ;
+    
   }
   #last h4
   {
     display: flex;
    
   }
-  /* Media Queries */
+
   
   @media (min-width: 700px) {
     .grid {

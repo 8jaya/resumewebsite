@@ -54,7 +54,7 @@ body {
   #showcase .bg-image {
     position: absolute;
     background:
-      url(../Images/head.jpg);
+      url(Images/head.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
